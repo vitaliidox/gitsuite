@@ -1,0 +1,21 @@
+#main{
+    background-color: olive;
+}
+
+#footer{
+    background-color: cadetblue;
+}
+#bar,#sp{
+    position: absolute;
+    z-index: 1;
+    height: 80vh;
+    margin-left: -8%;
+}
+.fa{
+    color: blueviolet;
+    z-index: 1;
+}
+#bar:hover{
+    transform:translateX(45%);
+    box-shadow:10px 10px 40px black;
+}
